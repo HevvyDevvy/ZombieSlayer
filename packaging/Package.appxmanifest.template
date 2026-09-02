@@ -12,8 +12,8 @@
     ProcessorArchitecture="__ARCH__" />
 
   <Properties>
-    <DisplayName>Zombie Slayer</DisplayName>
-    <PublisherDisplayName>TMHP</PublisherDisplayName>
+    <DisplayName>ZombieSlayer</DisplayName>
+    <PublisherDisplayName>@TMHP.com</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 
@@ -28,7 +28,7 @@
   <Applications>
     <Application Id="ZombieSlayer" Executable="ZombieSlayer.exe" EntryPoint="Windows.FullTrustApplication">
       <uap:VisualElements
-        DisplayName="Zombie Slayer"
+        DisplayName="ZombieSlayer"
         Description="Cross-platform network defense desktop app. Watches configured ports, checks inbound connections against an authorized IP allow-list, and terminates unauthorized processes."
         BackgroundColor="#0a0a0b"
         Square150x150Logo="Assets\Square150x150Logo.png"
