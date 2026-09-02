@@ -52,7 +52,7 @@ jobs:
           Copy-Item "packaging/Assets/*" "payload/Assets/" -Recurse
           (Get-Content "packaging/Package.appxmanifest.template") `
             -replace "__ARCH__", "${{ matrix.appx_arch }}" |
-            Set-Content "payload/Package.appxmanifest"
+            Set-Content "payload/AppxManifest.xml"
 
       - name: Locate Windows SDK tools
         id: sdk
